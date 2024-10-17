@@ -1,0 +1,29 @@
+h2{
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.image1{
+    float: inline-end; 
+    border: 2px white solid;
+    border-radius: 50%; 
+    height: 200px; 
+    width: 200px;  
+    margin-top: 30px;
+} 
+.one {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-top: 55px;
+} 
+.container1{
+    display: inline-block; 
+}
+.image2{
+    border: 2px white solid;
+    border-radius: 50%; 
+    height: 200px; 
+    width: 200px;  
+    margin-top: 30px;
+} 
+.container2{
+    display: flex;
+}

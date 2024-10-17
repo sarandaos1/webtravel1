@@ -1,0 +1,87 @@
+h2{
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight: bold;
+}
+.images{ 
+    margin-top: 30px;
+    margin-left: 65px;  
+    display: flex; 
+    flex-direction: row;
+    height: 250px; 
+    width: 200px; 
+}  
+.image1  {
+    border: 2px solid white; 
+    border-radius: 12px; 
+    margin-left: 160px;   
+}  
+.image1:hover{
+    height: 270px; 
+    width: 220px; 
+    box-shadow: 0 10px 40px rgba(159,162,177, 0.8);;
+} 
+.image2  { 
+    border: 2px solid white; 
+    border-radius: 12px; 
+    margin-left: 150px;   
+}   
+.image3{
+    border: 2px solid white; 
+    border-radius: 12px; 
+    margin-left: 140px;   
+}
+.image4{
+    border: 2px solid white; 
+    border-radius: 12px; 
+    margin-left: 140px;   
+} 
+ul{
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: row; 
+} 
+li{
+    margin-left: 190px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-top: 10px;
+} 
+.one{
+    margin-left: 190px;
+} 
+.two{
+    margin-left: 266px;
+} 
+.three{
+    margin-left: 250px;
+}  
+.four{
+    margin-left: 280px;
+} 
+
+li:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+} 
+.image2:hover{
+    height: 270px; 
+    width: 220px; 
+    box-shadow: 0 10px 40px rgba(159,162,177, 0.8);;
+}  
+.image3:hover{
+    height: 270px; 
+    width: 220px; 
+    box-shadow: 0 10px 40px rgba(159,162,177, 0.8);;
+}
+.image4:hover{
+    height: 270px; 
+    width: 220px; 
+    box-shadow: 0 10px 40px rgba(159,162,177, 0.8);;
+} 
+.images{
+    display: flex; 
+    justify-content: space-between;
+}
